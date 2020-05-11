@@ -1,0 +1,31 @@
+{
+  "name": "incmonitor",
+  "version": "1.0.0",
+  "description": "IncMonitor",
+  "main": "webpack.dev.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack  --watch --config ./webpack.dev.js",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xkumi/monitor_gui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xkumi/monitor_gui/issues"
+  },
+  "homepage": "https://github.com/0xkumi/monitor_gui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "lite-server": "^2.5.4",
+    "prettier": "^2.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
